@@ -1,0 +1,22 @@
+name: QuickShops
+version: @version@
+main: me.gadse.quickshops.QuickShops
+authors: [Gadse]
+api-version: "1.13"
+description: Pre-configured shop plugin with a little bit of spice.
+depend:
+  - Vault
+
+commands:
+  quickshops:
+    permission: "quickshops.shop"
+    aliases:
+      - shop
+
+permissions:
+  quickshops.shop:
+    default: true
+  quickshops.reload:
+    default: op
+  quickshops.help:
+    default: op
